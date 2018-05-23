@@ -146,7 +146,8 @@ while True:
             letter = ";"
         elif i == "=":
             letter = "="
-        elif i == "-":
+
+            elif i == "-":
             letter = "-"
         elif i == "_":
             letter = "_"
@@ -198,3 +199,12 @@ while True:
             letter = " "
         russianText += letter
     print(russianText)
+    
+class Writter(object):
+    def __init__(self, name)
+        self.name = name
+        self.CODE["if", "elif", "else",]
+
+    def write(self):
+        open(str(self.name) + ".py", "w")
+        
